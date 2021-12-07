@@ -1,0 +1,30 @@
+.header_lado_direito{
+    flex: 2.8;
+    /* background-color: red; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+
+    border-bottom: 0.4rem solid #bccbdf;
+}
+
+.bloco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #598ddb;
+    height: 3rem;
+    color: white;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.bloco p{
+    font-size: 1.5rem;
+}
+
+.bloco span{
+    font-size: 0.8rem;
+}

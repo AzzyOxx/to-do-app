@@ -1,0 +1,21 @@
+.botao{
+    background-color: #e780e7;
+    font-size: 2rem;
+
+    width: 2.8rem;
+    height: 2.8rem;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+}
+
+.botao a{
+    color: white;
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import { HeaderLadoDireito } from './componets/HeaderLadoDireito';
+import { HeaderLadoEsquerdo } from './componets/HeaderLadoEsquerdo';
 import { Rotas } from './rotas';
 
 
@@ -7,13 +9,10 @@ function App() {
   return (
     <div className="container">
       <header>
-        <div className='menu'>
-          <p><strong>App Tarefas</strong></p>        
-          <nav>
-            <button><a href="/">Tarefas</a></button>
-            <button><a href="/nova-tarefa">Nova Tarefa</a></button>
-          </nav>
-        </div>
+        {/* <p><strong>App Tarefas</strong></p>*/}
+        <HeaderLadoEsquerdo />
+        <HeaderLadoDireito />
+          
       </header>
       <main>        
           <Rotas/>
